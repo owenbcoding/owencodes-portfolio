@@ -9,10 +9,10 @@ const navItems = [
 </script>
 
 <template>
-    <nav class="fixed top-4 left-1/2 z-50 w-full -translate-x-1/2 px-4">
-        <div
-            class="mx-auto flex h-14 max-w-6xl items-center justify-between rounded-full border border-teal-500/20 bg-white/10 px-6 shadow-[inset_0_0_8px_rgba(255,255,255,0.1),0_0_15px_rgba(45,212,191,0.15)] backdrop-blur-xl"
-        >
+     <nav
+        class="fixed top-0 right-0 left-0 z-50 border-b border-teal-500/20 bg-white/10 shadow-[inset_0_0_8px_rgba(255,255,255,0.1),0_0_15px_rgba(45,212,191,0.15)] backdrop-blur-xl"
+    >
+        <div class="mx-auto flex h-14 max-w-6xl items-center justify-between px-6">
             <!-- Left side - Brand name -->
             <Link
                 href="/"
