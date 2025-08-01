@@ -21,7 +21,6 @@ import Footer from '@/components/Footer.vue';
         <MainNavigation />
         <div class="relative z-10 container mx-auto mt-14 flex flex-1 flex-col px-4 py-8">
             <div class="text-center">
-                
                 <h1 class="mb-4 text-4xl font-bold text-white drop-shadow-2xl">Hi 👋 Im, Owen</h1>
                 <h2 class="text-3xl font-bold text-white drop-shadow-lg">Software Engineer.</h2>
                 <!-- Slider content moved directly to the page -->
@@ -34,8 +33,8 @@ import Footer from '@/components/Footer.vue';
                     </p>
                 </div>
             </div>
-            <div>
-                carousel here
+            <div class="text-center mt-20">
+                Skills carousel here
             </div>
         </div>
         <Footer />
