@@ -11,7 +11,6 @@
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent z-0"></div>
         
         <MainNavigation />
-        <SliderNavigation />
         <div class="relative flex-1 container mx-auto px-4 py-8 pt-24 z-10">
             <h1 class="text-4xl font-bold text-white mb-8 text-center drop-shadow-2xl">Projects</h1>
             
@@ -19,7 +18,7 @@
             <div class="text-center mb-12">
                 <h2 class="text-3xl font-bold mb-4 text-white drop-shadow-lg">A showcase of my latest work and creative projects.</h2>
                 <p class="text-lg text-gray-200 max-w-2xl mx-auto drop-shadow-md">
-                    Explore my portfolio of innovative web applications, mobile apps, and digital solutions that demonstrate my passion for creating exceptional user experiences.
+                    Secondary navigation bar here
                 </p>
             </div>
 

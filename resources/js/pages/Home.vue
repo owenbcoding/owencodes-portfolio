@@ -19,14 +19,15 @@ import Footer from '@/components/Footer.vue';
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent z-0"></div>
         
         <MainNavigation />
-        <SliderNavigation />
         <div class="relative flex-1 container mx-auto px-4 py-8 pt-24 z-10">
             <div class="text-center">
                 <h1 class="text-5xl font-bold text-white mb-8 drop-shadow-2xl">Owencodes</h1>
                 
                 <!-- Slider content moved directly to the page -->
                 <div class="max-w-4xl mx-auto">
-                    <h2 class="text-3xl font-bold mb-6 text-white drop-shadow-lg">I'm a passionate Full Stack Developer.</h2>
+                    <h2 class="text-3xl font-bold mb-6 text-white drop-shadow-lg">Hi 👋, I'm Owen 
+                        a Self Taught Full Stack Developer.</h2>
+                    
                     <p class="text-xl text-gray-200 mb-8 leading-relaxed drop-shadow-md">
                         With expertise in modern web technologies and a keen eye for design, I specialize in building 
                         innovative solutions that deliver exceptional user experiences. From responsive web applications 

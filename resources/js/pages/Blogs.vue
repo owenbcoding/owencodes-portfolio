@@ -11,13 +11,11 @@
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent z-0"></div>
         
         <MainNavigation />
-        <SliderNavigation />
         <div class="relative flex-1 container mx-auto px-4 py-8 pt-24 z-10">
             <h1 class="text-4xl font-bold text-white mb-8 text-center drop-shadow-2xl">Blogs</h1>
             
             <!-- Slider content moved directly to the page -->
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold mb-4 text-white drop-shadow-lg">Thoughts, tutorials, and insights about web development and technology.</h2>
                 <p class="text-lg text-gray-200 max-w-2xl mx-auto drop-shadow-md">
                     Sharing my knowledge and experiences in web development, design patterns, and the latest technologies that shape the digital world.
                 </p>

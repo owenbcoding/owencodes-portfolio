@@ -11,13 +11,12 @@
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent z-0"></div>
         
         <MainNavigation />
-        <SliderNavigation />
         <div class="relative flex-1 container mx-auto px-4 py-8 pt-24 z-10">
-            <h1 class="mb-8 text-4xl font-bold text-white text-center drop-shadow-2xl">Contact</h1>
+            <h1 class="mb-8 text-4xl font-bold text-white text-center drop-shadow-2xl">Contact me</h1>
 
             <!-- Slider content moved directly to the page -->
             <div class="mb-12 text-center">
-                <h2 class="mb-4 text-3xl font-bold text-white drop-shadow-lg">Let's work together! Get in touch to discuss your next project.</h2>
+                <h2 class="mb-4 text-3xl font-bold text-white drop-shadow-lg">Let's work together!</h2>
                 <p class="mx-auto max-w-2xl text-lg text-gray-200 drop-shadow-md">
                     I'm always excited to collaborate on new projects. Whether you have a specific idea in mind or need help bringing your vision to life,
                     let's start a conversation.
