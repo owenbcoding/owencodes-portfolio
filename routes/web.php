@@ -6,12 +6,15 @@ use Inertia\Inertia;
 Route::get('/', function () {
     return Inertia::render('Home');  // renders resources/js/Pages/Home.vue
 });
-Route::get('/blogs', function () {
-    return Inertia::render('blogs');
-});
+
 Route::get('/projects', function () {
     return Inertia::render('Projects');
 });
+
+Route::get('/blogs', function () {
+    return Inertia::render('Blogs');
+});
+
 Route::get('/contact', function () {
     return Inertia::render('Contact');
 });
