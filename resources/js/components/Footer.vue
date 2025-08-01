@@ -3,7 +3,7 @@
         <div class="container mx-auto px-4">
             <div class="text-center">
                 <p class="text-gray-300 text-sm">
-                    © 2025 <span class="text-teal-400 font-bold">Owencodes</span> - Full Stack Dev
+                    © 2025 <span class="text-teal-400 font-bold">Owencodes</span>
                 </p>
             </div>
         </div>
