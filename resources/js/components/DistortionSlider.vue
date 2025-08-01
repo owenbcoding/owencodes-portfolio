@@ -16,7 +16,7 @@
     </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 // Component simplified since content is now on individual pages
 </script>
 
