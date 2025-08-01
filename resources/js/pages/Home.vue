@@ -36,11 +36,11 @@ import Footer from '@/components/Footer.vue';
                     
                     <div class="flex flex-wrap justify-center gap-6 mt-12">
                         <div class="text-center bg-black/20 backdrop-blur-sm rounded-lg p-6 border border-white/10">
-                            <div class="text-3xl font-bold text-teal-400 mb-2 drop-shadow-lg">50+</div>
+                            <div class="text-3xl font-bold text-teal-400 mb-2 drop-shadow-lg">7+</div>
                             <div class="text-gray-200">Projects Completed</div>
                         </div>
                         <div class="text-center bg-black/20 backdrop-blur-sm rounded-lg p-6 border border-white/10">
-                            <div class="text-3xl font-bold text-teal-400 mb-2 drop-shadow-lg">5+</div>
+                            <div class="text-3xl font-bold text-teal-400 mb-2 drop-shadow-lg">4+</div>
                             <div class="text-gray-200">Years Experience</div>
                         </div>
                         <div class="text-center bg-black/20 backdrop-blur-sm rounded-lg p-6 border border-white/10">
