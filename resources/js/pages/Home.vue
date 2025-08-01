@@ -34,7 +34,9 @@ import Footer from '@/components/Footer.vue';
                     </p>
                 </div>
             </div>
-            
+            <div>
+                carousel here
+            </div>
         </div>
         <Footer />
     </div>
