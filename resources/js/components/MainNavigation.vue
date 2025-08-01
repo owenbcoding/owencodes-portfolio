@@ -9,8 +9,10 @@ const navItems = [
 </script>
 
 <template>
-    <nav class="fixed top-0 left-0 w-full bg-black/80 backdrop-blur-md border-b border-teal-500/20 z-50">
-        <div class="max-w-6xl mx-auto flex items-center justify-between h-16 px-4">
+    <nav class="fixed top-4 left-1/2 z-50 w-full -translate-x-1/2 px-4">
+        <div
+            class="mx-auto flex h-14 max-w-6xl items-center justify-between rounded-full border border-teal-500/20 bg-white/10 px-6 shadow-[inset_0_0_8px_rgba(255,255,255,0.1),0_0_15px_rgba(45,212,191,0.15)] backdrop-blur-xl"
+        >
             <!-- Left side - Brand name -->
             <Link
                 href="/"
@@ -20,11 +22,11 @@ const navItems = [
             </Link>
 
             <!-- Center - Navigation links -->
-            <ul class="flex space-x-8">
+            <ul class="flex space-x-2">
                 <li v-for="item in navItems" :key="item.name">
                     <Link
                         :href="item.href"
-                        class="text-gray-200 hover:text-teal-400 transition-colors duration-200 font-medium"
+                        class="rounded-full px-4 py-2 font-medium text-gray-200 transition-colors duration-200 hover:bg-white/10 hover:text-teal-400"
                     >
                         {{ item.name }}
                     </Link>
@@ -35,7 +37,7 @@ const navItems = [
             <a
                 href="https://github.com/owenbcoding"
                 target="_blank"
-                class="inline-flex items-center px-3 py-2 bg-teal-600/80 text-white rounded-full font-medium hover:bg-teal-500 transition-all duration-200 border border-teal-500/30 hover:border-teal-400/50"
+                class="inline-flex items-center rounded-full border border-teal-500/30 bg-teal-600/80 px-3 py-2 font-medium text-white transition-all duration-200 hover:border-teal-400/50 hover:bg-teal-500"
             >
             Github
                 <svg class="ml-2 h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
