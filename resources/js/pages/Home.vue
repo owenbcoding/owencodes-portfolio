@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { Head } from '@inertiajs/vue3';
 import MainNavigation from '@/components/MainNavigation.vue';
 import SliderNavigation from '@/components/SliderNavigation.vue';
