@@ -9,6 +9,8 @@ const skills = [
   'PHP',
   'PostgreSQL',
 ];
+
+const skillTrack = [...skills, ...skills];
 </script>
 
 <template>
