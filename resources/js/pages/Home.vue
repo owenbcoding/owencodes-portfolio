@@ -7,49 +7,34 @@ import Footer from '@/components/Footer.vue';
 
 <template>
     <Head title="Home" />
-    <div class="relative min-h-screen overflow-hidden flex flex-col">
+    <div class="relative flex min-h-screen flex-col overflow-x-hidden">
         <!-- Cinematic background with gradient overlay -->
-        <div class="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-teal-900 z-0"></div>
+        <div class="absolute inset-0 z-0 bg-gradient-to-br from-black via-gray-900 to-teal-900"></div>
         
         <!-- Radial vignette overlay -->
-        <div class="absolute inset-0 bg-radial-vignette z-0"></div>
+        <div class="bg-radial-vignette absolute inset-0 z-0"></div>
         
         <!-- Additional gradient layers for depth -->
-        <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-transparent to-teal-900/40 z-0"></div>
-        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent z-0"></div>
+        <div class="absolute inset-0 z-0 bg-gradient-to-r from-black/60 via-transparent to-teal-900/40"></div>
+        <div class="absolute inset-0 z-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
         
         <MainNavigation />
-        <div class="relative flex-1 container mx-auto px-4 py-8 pt-24 z-10">
+        <div class="relative z-10 container mx-auto mt-14 flex flex-1 flex-col px-4 py-8">
             <div class="text-center">
-                <h1 class="text-5xl font-bold text-white mb-8 drop-shadow-2xl">Owencodes</h1>
                 
+                <h1 class="mb-4 text-4xl font-bold text-white drop-shadow-2xl">Hi 👋 Im, Owen</h1>
+                <h2 class="text-3xl font-bold text-white drop-shadow-lg">Software Engineer.</h2>
                 <!-- Slider content moved directly to the page -->
-                <div class="max-w-4xl mx-auto">
-                    <h2 class="text-3xl font-bold mb-6 text-white drop-shadow-lg">Hi 👋, I'm Owen 
-                        a Self Taught Full Stack Developer.</h2>
-                    
+                <div class="mt-8 flex flex-col items-center justify-center gap-8 md:flex-row">
+                    <img src="/images/happy-selfie.png" class="mt-8 flex flex-col rounded-full items-center justify-center gap-8 md:flex-row" alt="logo">
                     <p class="text-xl text-gray-200 mb-8 leading-relaxed drop-shadow-md">
                         With expertise in modern web technologies and a keen eye for design, I specialize in building 
                         innovative solutions that deliver exceptional user experiences. From responsive web applications 
                         to complex backend systems, I bring ideas to life with clean code and creative problem-solving.
                     </p>
-                    
-                    <div class="flex flex-wrap justify-center gap-6 mt-12">
-                        <div class="text-center bg-black/20 backdrop-blur-sm rounded-lg p-6 border border-white/10">
-                            <div class="text-3xl font-bold text-teal-400 mb-2 drop-shadow-lg">7+</div>
-                            <div class="text-gray-200">Projects Completed</div>
-                        </div>
-                        <div class="text-center bg-black/20 backdrop-blur-sm rounded-lg p-6 border border-white/10">
-                            <div class="text-3xl font-bold text-teal-400 mb-2 drop-shadow-lg">4+</div>
-                            <div class="text-gray-200">Years Experience</div>
-                        </div>
-                        <div class="text-center bg-black/20 backdrop-blur-sm rounded-lg p-6 border border-white/10">
-                            <div class="text-3xl font-bold text-teal-400 mb-2 drop-shadow-lg">100%</div>
-                            <div class="text-gray-200">Client Satisfaction</div>
-                        </div>
-                    </div>
                 </div>
             </div>
+            
         </div>
         <Footer />
     </div>
