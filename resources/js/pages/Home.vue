@@ -3,6 +3,7 @@ import { Head } from '@inertiajs/vue3';
 import MainNavigation from '@/components/MainNavigation.vue';
 import SliderNavigation from '@/components/SliderNavigation.vue';
 import Footer from '@/components/Footer.vue';
+import SkillsCarousel from '@/components/SkillsCarousel.vue';
 </script>
 
 <template>
@@ -32,9 +33,8 @@ import Footer from '@/components/Footer.vue';
                     </p>
                 </div>
             </div>
-            <div class="text-center mt-20">
-                Skills carousel here
-            </div>
+            <h2 class="text-center font-semibold text-3xl mt-10">MY Skills</h2>
+            <SkillsCarousel class="mt-5" />
         </div>
         <Footer />
     </div>
