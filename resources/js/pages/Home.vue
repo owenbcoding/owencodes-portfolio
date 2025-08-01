@@ -22,10 +22,10 @@ import SkillsCarousel from '@/components/SkillsCarousel.vue';
         <MainNavigation />
         <div class="relative z-10 container mx-auto mt-14 flex flex-1 flex-col px-4 py-8">
             <div class="text-center">
-                <h1 class="mb-4 text-4xl font-bold text-white drop-shadow-2xl">Hi 👋 Im, Owen <br> Software Engineer.</h1>
+                <h1 class="mb-4 text-4xl font-bold text-white drop-shadow-2xl mt-10">Hi 👋 Im, Owen <br> Software Engineer.</h1>
                 <!-- Slider content moved directly to the page -->
                 <div class="mt-8 flex flex-col items-center justify-center gap-8 md:flex-row">
-                    <img src="/images/happy-selfie.png" class="mt-8 flex flex-col rounded-full items-center justify-center gap-8 md:flex-row" alt="logo">
+                    <img src="/images/happy-selfie.png" class=" flex flex-col rounded-full items-center justify-center gap-8 md:flex-row" alt="logo">
                     <p class="text-xl text-gray-200 mb-8 leading-relaxed drop-shadow-md">
                         With expertise in modern web technologies and a keen eye for design, I specialize in building 
                         innovative solutions that deliver exceptional user experiences. From responsive web applications 
