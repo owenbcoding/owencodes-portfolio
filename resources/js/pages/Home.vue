@@ -7,6 +7,8 @@ import { gsap } from 'gsap';
 import { onMounted, ref } from 'vue';
 
 const avatar = ref<HTMLImageElement | null>(null);
+const fullText = `🚀 I build functional, and well crafted web applications. I’m passionate about writing clean code, designing intuitive interfaces, and solving real-world problems through technology.`;
+const displayedText = ref('');
 
 onMounted(() => {
     if (avatar.value) {
@@ -17,6 +19,17 @@ onMounted(() => {
             ease: 'power2.out',
         });
     }
+
+    // Typewriter animation
+    let index = 0;
+    const interval = setInterval(() => {
+        if (index < fullText.length) {
+            displayedText.value += fullText[index];
+            index++;
+        } else {
+            clearInterval(interval);
+        }
+    }, 40); // Speed in ms per character
 });
 </script>
 
@@ -57,17 +70,15 @@ onMounted(() => {
                         <div class="mx-auto flex flex-col items-center justify-center gap-2">
                             <h2 class="text-2xl font-bold text-white drop-shadow-2xl">GitHub Stats</h2>
                             <img
-                                src="https://github-readme-stats.vercel.app/api/top-langs?username=owenbcoding&show_icons=true&layout=compact&theme=tokyonight"
-                                alt="owenbcoding top languages"
-                            />
-                            <img
                                 src="https://github-readme-stats.vercel.app/api?username=owenbcoding&show_icons=true&theme=tokyonight"
                                 alt="owenbcoding stats"
                             />
                         </div>
-                        <p class="mt-10 mb-8 max-w-prose text-lg leading-loose text-gray-200 drop-shadow-md md:text-xl">
-                            🚀 I build fast, functional, and beautifully crafted web applications, I’m passionate about writing clean code, designing
-                            intuitive interfaces, and solving real-world problems through technology.
+                        <p
+                            class="mt-10 mb-8 max-w-prose text-lg leading-loose whitespace-pre-line text-gray-200 drop-shadow-md md:text-xl"
+                            style="min-height: 160px; overflow: hidden"
+                        >
+                            {{ displayedText }}
                         </p>
                     </div>
                 </div>
