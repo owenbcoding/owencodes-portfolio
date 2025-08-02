@@ -1,6 +1,7 @@
 <script setup lang="ts">
 const skills = [
   'HTML',
+  'CSS',
   'TailwindCSS',
   'Javascript',
   'Laravel',
@@ -13,19 +14,31 @@ const skills = [
 </script>
 
 <template>
-    <div class="relative w-full overflow-hidden py-8">
-      <div class="flex w-max animate-scroll space-x-8">
+  <div class="relative w-full overflow-hidden py-8">
+    <div class="flex w-max animate-scroll space-x-8 gap-10">
+      <!-- Duplicate the skills list to create seamless loop -->
+      <template v-for="n in 1" :key="n">
         <div
           v-for="skill in skills"
-          :key="skill"
+          :key="`${n}-${skill}`"
           class="flex-shrink-0 text-xl font-semibold text-teal-300"
         >
           {{ skill }}
         </div>
-      </div>
+      </template>
+      <template v-for="n in 1" :key="n">
+        <div
+          v-for="skill in skills"
+          :key="`${n}-${skill}`"
+          class="flex-shrink-0 text-xl font-semibold text-teal-300"
+        >
+          {{ skill }}
+        </div>
+      </template>
     </div>
-  </template>
-  
+  </div>
+</template>
+
   <style scoped>
   @keyframes scroll {
     0% {
